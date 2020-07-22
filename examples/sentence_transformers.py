@@ -22,12 +22,10 @@ from sentence_transformers import SentenceTransformer
 # Set PATHs
 PATH_SENTEVAL = '../'
 PATH_TO_DATA = '../data'
-PATH_SENTENCE_TRANSFORMERS = '../sentence_transformers/'
 MODEL_PATH = '../pretrain/bert-base-nli-mean-tokens'
 
 # import senteval
 sys.path.insert(0, PATH_SENTEVAL)
-sys.path.insert(1, PATH_SENTENCE_TRANSFORMERS)
 
 import senteval
 
