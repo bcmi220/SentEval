@@ -15,6 +15,7 @@ import sys
 import os
 import torch
 import logging
+import numpy as np
 
 # Set PATHs
 PATH_SENTEVAL = '../'
@@ -36,6 +37,7 @@ def prepare(params, samples):
 def batcher(params, batch):
     sentences = [' '.join(s) for s in batch]
     embeddings = params.sentence_transformers.encode(sentences)
+    embeddings = np.vstack(embeddings)
     return embeddings
 
 
