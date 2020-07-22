@@ -14,7 +14,7 @@ This code is written in python. The dependencies are:
 * Python 2/3 with [NumPy](http://www.numpy.org/)/[SciPy](http://www.scipy.org/)
 * [Pytorch](http://pytorch.org/)>=0.4
 * [scikit-learn](http://scikit-learn.org/stable/index.html)>=0.18.0
-* [sentence-transformers](https://github.com/UKPLab/sentence-transformers)
+* [sentence-transformers](https://github.com/UKPLab/sentence-transformers) [Pretrained model](https://public.ukp.informatik.tu-darmstadt.de/reimers/sentence-transformers/v0.2/)
 ```
 pip install --editable sentence-transformers/
 ```
