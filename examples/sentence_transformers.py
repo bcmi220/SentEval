@@ -20,7 +20,7 @@ import numpy as np
 # Set PATHs
 PATH_SENTEVAL = '../'
 PATH_TO_DATA = '../data'
-MODEL_PATH = '../pretrain/bert-base-nli-mean-tokens'
+MODEL_PATH = '../pretrain/bert-base-nli-max-tokens'
 
 # import senteval
 sys.path.insert(0, PATH_SENTEVAL)
