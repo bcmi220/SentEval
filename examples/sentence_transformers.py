@@ -16,9 +16,6 @@ import os
 import torch
 import logging
 
-# get models.py from sentence-transformers repo
-from sentence_transformers import SentenceTransformer
-
 # Set PATHs
 PATH_SENTEVAL = '../'
 PATH_TO_DATA = '../data'
@@ -26,9 +23,11 @@ MODEL_PATH = '../pretrain/bert-base-nli-mean-tokens'
 
 # import senteval
 sys.path.insert(0, PATH_SENTEVAL)
+sys.path.insert(1, '../sentence-transformers/')
 
 import senteval
 
+from sentence_transformers import SentenceTransformer
 
 def prepare(params, samples):
     return
